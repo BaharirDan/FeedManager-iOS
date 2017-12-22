@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FeedManager_Example' do
+  pod 'FeedManager', :path => '../'
+
+  target 'FeedManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
