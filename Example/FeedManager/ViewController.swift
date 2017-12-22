@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     
     var isBlinking = false
     let blinkingLabel = BlinkingLabel(frame: CGRect(x: 10, y: 20, width: 200, height: 30))
+    let food1:Food = Food(type:"s",name:"s",color:"s")
+    let food2:Food = Food(type:"p",name:"p",color:"p")
+    let food3:Food = Food(type:"k",name:"k",color:"k")
+
+    var foods:[Food] = [food1,food2,food3]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +35,20 @@ class ViewController: UIViewController {
         toggleButton.setTitleColor(UIColor.red, for: .normal)
         toggleButton.addTarget(self, action: #selector(self.toggleBlinking), for: .touchUpInside)
         view.addSubview(toggleButton)
+        
+        
+        getFood(fromService:FoodService)
+    }
+    
+    func getFood<S: Gettable>(fromService service:S) where S.T == [Food] {
+        service.get() { [weak self] result in
+            switch result {
+            case .Success(let food) :
+                self.foods = food
+            case .Failure(let error) :
+                print(error)
+            }
+        }
     }
     
     @objc func toggleBlinking() {

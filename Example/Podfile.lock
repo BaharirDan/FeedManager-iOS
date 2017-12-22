@@ -1,5 +1,5 @@
 PODS:
-  - FeedManager (0.1.0)
+  - FeedManager (1.0.0)
 
 DEPENDENCIES:
   - FeedManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FeedManager: 15a64e1b2720cb1508ce6c7e6bfbc6bd43912d88
+  FeedManager: 0eb4ecbccfa81ed25cf5ce4bc7e64ebc3d394623
 
 PODFILE CHECKSUM: 768978f19f77b206227914565891ecba6672b071
 

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB4451EF3CBBC5B3FA2FB1D5C6F79D7 /* FeedManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98F36C0F1CB79FE5A9F81F40C356148 /* FeedManager-dummy.m */; };
+		65E7AAC5AF60B976F24B95C48B39A9C5 /* FeedManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE46326410D3009538332F3A37A26D52 /* FeedManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E91F95F9DDF8988F64BCC3226C0553E /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445ABC919ED7E05EECA2CC64B20C36AF /* NetworkHelper.swift */; };
+		7F1DC210C7660F49C3F293EF4589B936 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85A4F02D4785EA31FF16B576BA9EE68 /* BlinkingLabel.swift */; };
 		870DBBFC9D87D94C176178CA4CFF37A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		93D71696B64C520E1D5594B3C98ABAD9 /* FeedManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38908CAE24075036C25BCCBD9C07037C /* FeedManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		953D7FDF4840DFC07B54C23DD846EE5E /* Pods-FeedManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5CB205B5D61E2F2D1B6908BBE0E426D /* Pods-FeedManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B4DF424EDCB6524E990BD4815835BC4 /* FeedManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C271281E39E6ED3ABCB09735AED912F0 /* FeedManager-dummy.m */; };
+		B4C98247B073A7580AC0620792A72114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C177427FEC86C826C08247F747F6CFB9 /* Pods-FeedManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6860CD18EB36385D7E4056A4D083B1AD /* Pods-FeedManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7216C31D365846DF4C8CF3D6761D339 /* Pods-FeedManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA28C64A57770F4552D9923C325CA3 /* Pods-FeedManager_Example-dummy.m */; };
 		D67E58C4C32D6A0CC61A23063FBB05F5 /* Pods-FeedManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4DEFF1C4C03D16207EB1366006291A /* Pods-FeedManager_Tests-dummy.m */; };
 		D6EDBC673A7E97932417F570D80302A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E0D47BEA2F42096AE49530F921A6DFEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EBDC63EA688C5364E121B376810DD587 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229B33F8392FB5723E5A89E69E3D1C8D /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,21 +25,19 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 87E6D63B0B1E10C2322711CD5444A31E;
+			remoteGlobalIDString = 94327026494A6DEDADCD1F64C1723FB5;
 			remoteInfo = FeedManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D9F9E05C083EF9C3C3C56EBCCCDD8F9 /* Pods-FeedManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		229B33F8392FB5723E5A89E69E3D1C8D /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = FeedManager/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
-		38908CAE24075036C25BCCBD9C07037C /* FeedManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedManager-umbrella.h"; sourceTree = "<group>"; };
-		4601D7A1EB66AA0CED4FB480E1BAE686 /* FeedManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedManager-prefix.pch"; sourceTree = "<group>"; };
+		43E06457DDBB59647320A27511B909DC /* FeedManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedManager-prefix.pch"; sourceTree = "<group>"; };
+		445ABC919ED7E05EECA2CC64B20C36AF /* NetworkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkHelper.swift; path = FeedManager/Classes/NetworkHelper.swift; sourceTree = "<group>"; };
 		4E0FE51D6ABD682CB300F2C908E194D4 /* Pods-FeedManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FeedManager_Example.modulemap"; sourceTree = "<group>"; };
 		52FA28C64A57770F4552D9923C325CA3 /* Pods-FeedManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeedManager_Example-dummy.m"; sourceTree = "<group>"; };
 		57D5A2E7C0595E2AD1DE1B2E78E6CA32 /* Pods-FeedManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5E4DEFF1C4C03D16207EB1366006291A /* Pods-FeedManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FeedManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		5E547CF42E35E8F94CAC2F84BDD1B5CE /* FeedManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedManager.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		683BC85E6541B942840762FB4D311FDC /* Pods-FeedManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeedManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6860CD18EB36385D7E4056A4D083B1AD /* Pods-FeedManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeedManager_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -53,31 +52,34 @@
 		900413F7FC7A5B49208D36B655B5E4F1 /* Pods-FeedManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FeedManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B11A8B2696F93D2F292CA1EAC4B3B229 /* Pods-FeedManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FeedManager_Tests.modulemap"; sourceTree = "<group>"; };
+		B7DA8389C6DD2B06EF8BF2DBC27230E6 /* FeedManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedManager.xcconfig; sourceTree = "<group>"; };
 		BEC8E44513BA76C06C40333AB3F66F8E /* Pods-FeedManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C271281E39E6ED3ABCB09735AED912F0 /* FeedManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedManager-dummy.m"; sourceTree = "<group>"; };
-		C70B216645D3E91122F424973CA28126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85A4F02D4785EA31FF16B576BA9EE68 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = FeedManager/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
+		CE86ED873F5C06C53F9A56D548B3E022 /* FeedManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FeedManager.modulemap; sourceTree = "<group>"; };
 		D3C8E3424E346C035AD87A49C1D80CDE /* Pods-FeedManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeedManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D5F322BDAF775E4D881D6312C540C1EA /* FeedManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FeedManager.modulemap; sourceTree = "<group>"; };
 		DB4DF888335F6375676DFD860B31EC14 /* Pods-FeedManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FeedManager_Example-resources.sh"; sourceTree = "<group>"; };
+		E38A4A00A175C148150577462A0F2B5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CB205B5D61E2F2D1B6908BBE0E426D /* Pods-FeedManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FeedManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		E621F6117C5E3DC95848A39F33E9D259 /* Pods-FeedManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeedManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E98F36C0F1CB79FE5A9F81F40C356148 /* FeedManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedManager-dummy.m"; sourceTree = "<group>"; };
 		EA081719EE2B81689FA767CA3B78A14B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE46326410D3009538332F3A37A26D52 /* FeedManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedManager-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DCAABB3D11462152BC5920E4BD17FFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0D47BEA2F42096AE49530F921A6DFEA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4CBF73F2082E3C4C1F73BDC90BCD338A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				870DBBFC9D87D94C176178CA4CFF37A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CD45C9B6A5C1DAFEEDB65E48A81773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C98247B073A7580AC0620792A72114 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,12 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3740651BE3693EA87DB00C532F8266C2 /* Development Pods */ = {
+		44F08CEFC185C052378893AE1017E315 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0A435D6646F88907DA844254429FFFF /* FeedManager */,
+				CE86ED873F5C06C53F9A56D548B3E022 /* FeedManager.modulemap */,
+				B7DA8389C6DD2B06EF8BF2DBC27230E6 /* FeedManager.xcconfig */,
+				E98F36C0F1CB79FE5A9F81F40C356148 /* FeedManager-dummy.m */,
+				43E06457DDBB59647320A27511B909DC /* FeedManager-prefix.pch */,
+				FE46326410D3009538332F3A37A26D52 /* FeedManager-umbrella.h */,
+				E38A4A00A175C148150577462A0F2B5C /* Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FeedManager";
 			sourceTree = "<group>";
 		};
 		46C1E8A2FB9608FE4EEBED46FF976FEE /* Pods-FeedManager_Example */ = {
@@ -118,18 +126,12 @@
 			path = "Target Support Files/Pods-FeedManager_Example";
 			sourceTree = "<group>";
 		};
-		5D5049DBA346AB9321956361EAE04BE1 /* Support Files */ = {
+		640E13500BCB29C9C642989CC4BEFA9B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5F322BDAF775E4D881D6312C540C1EA /* FeedManager.modulemap */,
-				5E547CF42E35E8F94CAC2F84BDD1B5CE /* FeedManager.xcconfig */,
-				C271281E39E6ED3ABCB09735AED912F0 /* FeedManager-dummy.m */,
-				4601D7A1EB66AA0CED4FB480E1BAE686 /* FeedManager-prefix.pch */,
-				38908CAE24075036C25BCCBD9C07037C /* FeedManager-umbrella.h */,
-				C70B216645D3E91122F424973CA28126 /* Info.plist */,
+				948B7FC9C0BBBF5336C87C7CE294E45B /* FeedManager */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FeedManager";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		679D03C40D9F7AA2744A8D538FCC6FF3 /* Targets Support Files */ = {
@@ -163,11 +165,22 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3740651BE3693EA87DB00C532F8266C2 /* Development Pods */,
+				640E13500BCB29C9C642989CC4BEFA9B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D5CFA6B5E04E79C83BC7099D3F42A714 /* Products */,
 				679D03C40D9F7AA2744A8D538FCC6FF3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		948B7FC9C0BBBF5336C87C7CE294E45B /* FeedManager */ = {
+			isa = PBXGroup;
+			children = (
+				C85A4F02D4785EA31FF16B576BA9EE68 /* BlinkingLabel.swift */,
+				445ABC919ED7E05EECA2CC64B20C36AF /* NetworkHelper.swift */,
+				44F08CEFC185C052378893AE1017E315 /* Support Files */,
+			);
+			name = FeedManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -176,16 +189,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0A435D6646F88907DA844254429FFFF /* FeedManager */ = {
-			isa = PBXGroup;
-			children = (
-				229B33F8392FB5723E5A89E69E3D1C8D /* BlinkingLabel.swift */,
-				5D5049DBA346AB9321956361EAE04BE1 /* Support Files */,
-			);
-			name = FeedManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -209,14 +212,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		107C591DC6C9DF9472518CE9ACBA3D71 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93D71696B64C520E1D5594B3C98ABAD9 /* FeedManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34A8A39F0D6F3375449E37BD03C3603F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C177427FEC86C826C08247F747F6CFB9 /* Pods-FeedManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BCCB49DB948AA6BA3951ED4709DFE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E7AAC5AF60B976F24B95C48B39A9C5 /* FeedManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +256,6 @@
 			productReference = 7CAF113D9779D351CE14F0AFDF011729 /* Pods_FeedManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		87E6D63B0B1E10C2322711CD5444A31E /* FeedManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51DB2BBEE86F8802F0B1CABBF165558E /* Build configuration list for PBXNativeTarget "FeedManager" */;
-			buildPhases = (
-				62BEB30FA4C5ED5D7156DA9F1964C973 /* Sources */,
-				3DCAABB3D11462152BC5920E4BD17FFB /* Frameworks */,
-				107C591DC6C9DF9472518CE9ACBA3D71 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FeedManager;
-			productName = FeedManager;
-			productReference = 8F57FC5D8FDB80610E50D194CE196A6F /* FeedManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		8D00C731F51EFD1F72062C7F2EB77FC1 /* Pods-FeedManager_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3182FE42EFF8E527CCC123F3381303DE /* Build configuration list for PBXNativeTarget "Pods-FeedManager_Example" */;
@@ -286,6 +272,23 @@
 			name = "Pods-FeedManager_Example";
 			productName = "Pods-FeedManager_Example";
 			productReference = 80F0B348BB318803F6912C50B210A545 /* Pods_FeedManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94327026494A6DEDADCD1F64C1723FB5 /* FeedManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9679947688BA478ADF4023DD4B4C2D48 /* Build configuration list for PBXNativeTarget "FeedManager" */;
+			buildPhases = (
+				1DA02BEB81A2E4C0F91FBF6FF3B35C54 /* Sources */,
+				89CD45C9B6A5C1DAFEEDB65E48A81773 /* Frameworks */,
+				E0BCCB49DB948AA6BA3951ED4709DFE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedManager;
+			productName = FeedManager;
+			productReference = 8F57FC5D8FDB80610E50D194CE196A6F /* FeedManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +312,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87E6D63B0B1E10C2322711CD5444A31E /* FeedManager */,
+				94327026494A6DEDADCD1F64C1723FB5 /* FeedManager */,
 				8D00C731F51EFD1F72062C7F2EB77FC1 /* Pods-FeedManager_Example */,
 				0C8FFB3CB297B44A9D6F9A3D2082B2C3 /* Pods-FeedManager_Tests */,
 			);
@@ -317,20 +320,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1DA02BEB81A2E4C0F91FBF6FF3B35C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DC210C7660F49C3F293EF4589B936 /* BlinkingLabel.swift in Sources */,
+				5AB4451EF3CBBC5B3FA2FB1D5C6F79D7 /* FeedManager-dummy.m in Sources */,
+				6E91F95F9DDF8988F64BCC3226C0553E /* NetworkHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EF204045CA50151852F133819FD0AF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D67E58C4C32D6A0CC61A23063FBB05F5 /* Pods-FeedManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62BEB30FA4C5ED5D7156DA9F1964C973 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBDC63EA688C5364E121B376810DD587 /* BlinkingLabel.swift in Sources */,
-				9B4DF424EDCB6524E990BD4815835BC4 /* FeedManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +352,7 @@
 		0A7B27735FB20E4AB83D40472BFF16F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FeedManager;
-			target = 87E6D63B0B1E10C2322711CD5444A31E /* FeedManager */;
+			target = 94327026494A6DEDADCD1F64C1723FB5 /* FeedManager */;
 			targetProxy = 938E92476953EFD3CD104FA9B23F180E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,9 +426,9 @@
 			};
 			name = Debug;
 		};
-		29D02C2BD46627222FCF688FC946908A /* Release */ = {
+		2A9F8E86F479E92B732DCEDFB0DFAF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E547CF42E35E8F94CAC2F84BDD1B5CE /* FeedManager.xcconfig */;
+			baseConfigurationReference = B7DA8389C6DD2B06EF8BF2DBC27230E6 /* FeedManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -438,21 +442,20 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FeedManager/FeedManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FeedManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FeedManager/FeedManager.modulemap";
 				PRODUCT_NAME = FeedManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -513,6 +516,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		43018F630DF5E8548DA63BF4A652983F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DA8389C6DD2B06EF8BF2DBC27230E6 /* FeedManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedManager/FeedManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeedManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeedManager/FeedManager.modulemap";
+				PRODUCT_NAME = FeedManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -601,37 +636,6 @@
 			};
 			name = Debug;
 		};
-		D883D0E66BECBF1C8DD9469474ADF5BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E547CF42E35E8F94CAC2F84BDD1B5CE /* FeedManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FeedManager/FeedManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FeedManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FeedManager/FeedManager.modulemap";
-				PRODUCT_NAME = FeedManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F412B24DA68096F73107BE72E68760FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D9F9E05C083EF9C3C3C56EBCCCDD8F9 /* Pods-FeedManager_Tests.release.xcconfig */;
@@ -686,11 +690,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51DB2BBEE86F8802F0B1CABBF165558E /* Build configuration list for PBXNativeTarget "FeedManager" */ = {
+		9679947688BA478ADF4023DD4B4C2D48 /* Build configuration list for PBXNativeTarget "FeedManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D883D0E66BECBF1C8DD9469474ADF5BC /* Debug */,
-				29D02C2BD46627222FCF688FC946908A /* Release */,
+				2A9F8E86F479E92B732DCEDFB0DFAF58 /* Debug */,
+				43018F630DF5E8548DA63BF4A652983F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
