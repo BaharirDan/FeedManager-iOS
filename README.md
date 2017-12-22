@@ -27,3 +27,4 @@ baharirdan, bandaharir@gmail.com
 ## License
 
 FeedManager is available under the MIT license. See the LICENSE file for more info.
+

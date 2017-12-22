@@ -1,0 +1,6 @@
+framework module FeedManager {
+  umbrella header "FeedManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - FeedManager (0.1.0)
+
+DEPENDENCIES:
+  - FeedManager (from `../`)
+
+EXTERNAL SOURCES:
+  FeedManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FeedManager: 15a64e1b2720cb1508ce6c7e6bfbc6bd43912d88
+
+PODFILE CHECKSUM: 768978f19f77b206227914565891ecba6672b071
+
+COCOAPODS: 1.3.1
