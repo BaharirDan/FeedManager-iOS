@@ -9,18 +9,38 @@
 import UIKit
 import FeedManager
 
+public struct Food {
+    public var type:String?
+    public var name:String!
+    public var color:String?
+    
+    init(type:String?,name:String!,color:String?){
+        self.name = name
+        self.type = type
+        self.color = color
+    }
+}
+
+public struct FoodService:Gettable {
+    public func get(completionHandler:(Result<[Food]>) -> Void) {
+        completionHandler(.Success([Food(type:"s",name:"s",color:"s")]) )
+    }
+}
+
 class ViewController: UIViewController {
     
     var isBlinking = false
     let blinkingLabel = BlinkingLabel(frame: CGRect(x: 10, y: 20, width: 200, height: 30))
-    let food1:Food = Food(type:"s",name:"s",color:"s")
-    let food2:Food = Food(type:"p",name:"p",color:"p")
-    let food3:Food = Food(type:"k",name:"k",color:"k")
+    let food1 = Food(type:"s",name:"s",color:"s")
+    let food2 = Food(type:"p",name:"p",color:"p")
+    let food3 = Food(type:"k",name:"k",color:"k")
 
-    var foods:[Food] = [food1,food2,food3]
+    var foods:[Food]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.foods = [food1,food2,food3]
         
         // Setup the BlinkingLabel
         blinkingLabel.text = "I blink!"
@@ -37,14 +57,14 @@ class ViewController: UIViewController {
         view.addSubview(toggleButton)
         
         
-        getFood(fromService:FoodService)
+        getFood(fromService:FoodService())
     }
     
     func getFood<S: Gettable>(fromService service:S) where S.T == [Food] {
         service.get() { [weak self] result in
             switch result {
             case .Success(let food) :
-                self.foods = food
+                self?.foods = food
             case .Failure(let error) :
                 print(error)
             }
